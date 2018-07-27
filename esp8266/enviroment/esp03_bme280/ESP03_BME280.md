@@ -2,7 +2,7 @@
 
 (by @margau) *Work in Progress*
 
-![Bestückte Platine](esp03_bme280_1.jpg)
+![Bestückte Platine](https://github.com/Freifunk-IoT/hardware/raw/master/esp8266/enviroment/esp03_bme280/esp03_bme280_1.JPG)
 
 Diese Platine bietet, unter Verwendung von SMD-Bauelementen, einen schnellen Aufbau eines Temperatursensors an. Nötig sind zum Betrieb nur eine externe 3,3V-Spannungsversorgung. Auf LED's etc. wurde verzichtet, um einen möglichst lange andauernden Akkubetrieb möglich zu machen. Der Aufbau dauert für geübte ca. 10-15 Minuten.
 
@@ -32,7 +32,7 @@ Diese Platine bietet, unter Verwendung von SMD-Bauelementen, einen schnellen Auf
 Weiterhin wird für den Betrieb eine 3.3V-Spannungsversorgung benötigt, auch hier gibt es fertige Module. **Ein Betrieb mit 5V zerstört die Schaltung!**
 
 ### PCB
-![Bestückte Platine](esp03_bme280_2.jpg)
+![Bestückte Platine](https://github.com/Freifunk-IoT/hardware/raw/master/esp8266/enviroment/esp03_bme280/esp03_bme280_2.JPG)
 
 ### Kosten
 
