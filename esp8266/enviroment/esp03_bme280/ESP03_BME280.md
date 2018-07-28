@@ -44,6 +44,7 @@ Es empfiehlt sich beim Aufbau zunächst mit den SMD-Komponenten zu Beginnen, und
 Wenn beim Programmiervorgang eine Stromversorgung über den Programmieradapter gewünscht ist, sollte die Lötbrücke Prog. VCC geschlossen werden.
 
 Bei Verwendung des Deep Sleep muss weiterhin eine Lötbrücke auf der Platine des ESP-03 geschlossen werden, dies erfordert etwas Geschick und Vorsicht.
+
 ![Lötbrücke](https://github.com/Freifunk-IoT/hardware/raw/master/esp8266/enviroment/esp03_bme280/esp03_bme280_3.JPG)
 
 ### Programmierung
@@ -54,7 +55,11 @@ Folgende Änderungen müssen noch vorgenommen werden:
 - Die richtige Sensor-ID muss eingetragen werden
 - ggf. den Kommentar in Zeile 143 entfernen und Zeile 145 auskommentieren, um den Deep Sleep zu nutzen
 
-In der Arduino-IDE muss die ESP8266-Umgebung installiert sein, der richtige COM-Port ausgewählt werden und das Board "Generic ESP 8266 Module" ausgewählt sein. Nach korrekter Verbindung (Pin's prüfen!) und Einstellung der Spannung von **3.3 V** am USB-Seriell Adapter kann man den Upload-Knopf am Board gedrückt halten, die Verbindung herstellen und in der IDE den Upload anstoßen. Sieht man an den LEDs des Adapters einzelnes Aufblitzen, kann der Upload-Taster losgelassen werden; der Upload sollte nun erfolgen. Falls nicht, sind noch einmal alle Verbindungen etc. zu prüfen.
+In der Arduino-IDE muss die ESP8266-Umgebung installiert sein, der richtige COM-Port ausgewählt werden und das Board "Generic ESP 8266 Module" ausgewählt sein. 
+
+Nach korrekter Verbindung (Pin's prüfen!) und Einstellung der Spannung von **3.3 V** am USB-Seriell Adapter kann man den Upload-Knopf am Board gedrückt halten, die Verbindung herstellen und in der IDE den Upload anstoßen. 
+
+Sieht man an den LEDs des Adapters einzelnes Aufblitzen, kann der Upload-Taster losgelassen werden; der Upload sollte nun erfolgen. Falls nicht, sind noch einmal alle Verbindungen etc. zu prüfen.
 
 *Die Beschriftung ist 1:1, d.h., RX wird mit RX am Adapter und TX mit TX am Adapter verbunden. Die Belegung ist für übliche FTDI-Adapter - falls eine andere Reihenfolge der Pins vorliegt, einfach mit Jumper-Kabeln richtig verbinden.*
 
