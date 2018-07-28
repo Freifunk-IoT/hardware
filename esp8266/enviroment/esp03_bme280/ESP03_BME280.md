@@ -1,6 +1,6 @@
 # ESP-03 mit BME280 
 
-(by @margau) *Work in Progress*
+(by @margau ) *Work in Progress*
 
 ![Bestückte Platine](https://github.com/Freifunk-IoT/hardware/raw/master/esp8266/enviroment/esp03_bme280/esp03_bme280_1.JPG)
 
