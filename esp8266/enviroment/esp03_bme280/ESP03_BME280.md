@@ -1,6 +1,6 @@
 # ESP-03 mit BME280 
 
-(by @margau ) *Work in Progress*
+(by [@margau](https://github.com/margau))
 
 ![Bestückte Platine](https://github.com/Freifunk-IoT/hardware/raw/master/esp8266/enviroment/esp03_bme280/esp03_bme280_1.JPG)
 
@@ -28,7 +28,7 @@ Diese Platine bietet, unter Verwendung von SMD-Bauelementen, einen schnellen Auf
 | Buchsenleiste 2,54 mm                                        | Diverse Elektronikhändler, am besten als Set        | 1 * 4 pin, 1 * 6 pin | Aliexpress: 1,66 € für 10 * 40 pins                     |
 | 5,08 mm Schraubklemme                                        | Ebay, Aliexpress ...                                | 1                    | ~ 1,20 € für 20 Stück                                   |
 | Miniaturtaster                                        | Ebay, Aliexpress; sinnvoll im Set                               | 1                    | < 10 ct                                   |
-| FT232(o.ä.) USB-Seriell Programmieradapter, **3.3V!**, auf Pinbelegung achten! | Ebay, Aliexpress, ...                               | 1                    | ~1,50 €                                                 |
+| FTDI232(o.ä.) USB-Seriell Programmieradapter, **3.3V!**, auf Pinbelegung achten! | Ebay, Aliexpress, ...                               | 1                    | ~1,50 €                                                 |
 
 Weiterhin wird für den Betrieb eine 3.3V-Spannungsversorgung benötigt, auch hier gibt es fertige Module. **Ein Betrieb mit 5V zerstört die Schaltung!**
 
@@ -40,12 +40,16 @@ Die Produktionsdaten im Gerber-Format befinden sich im Ordner "Gerber". Das Desi
 Die im Bild dargestellte Platine wurde bei JLCPCB bestellt, bei Kosten von ca. 9$ für 10 Stück inkl. Versand und einer Lieferzeit von ca. 10-20 Tagen.
 
 ### Aufbau
-Es empfiehlt sich beim Aufbau zunächst mit den SMD-Komponenten zu Beginnen, und sich dann zu den höheren Bauteilen vorzuarbeiten.
-Wenn beim Programmiervorgang eine Stromversorgung über den Programmieradapter gewünscht ist, sollte die Lötbrücke Prog. VCC geschlossen werden.
+Es empfiehlt sich beim Aufbau zunächst mit den SMD-Komponenten zu beginnen, und sich dann zu den größeren Bauteilen vorzuarbeiten.
+Wenn beim Programmiervorgang eine Stromversorgung über den Programmieradapter gewünscht ist, muss die Lötbrücke Prog. VCC geschlossen werden.
 
 Bei Verwendung des Deep Sleep muss weiterhin eine Lötbrücke auf der Platine des ESP-03 geschlossen werden, dies erfordert etwas Geschick und Vorsicht.
 
 ![Lötbrücke](https://github.com/Freifunk-IoT/hardware/raw/master/esp8266/enviroment/esp03_bme280/esp03_bme280_3.JPG)
+
+Man kann das BME280-Breakout-Board direkt verlöten, oder (besonders im Falle eines defektes) austauschbar über eine Buchsenleiste montieren. Hierbei einfach darauf achten, dass die Beschriftung am BME280-Breakout-Board mit der auf der Platine übereinstimmt.
+
+Die externe Stromversorgung des Boards **muss** mit 3.3V erfolgen, andernfalls werden Bauteile beschädigt.
 
 ### Programmierung
 Die Programmierung erfolgt mit einem USB-Seriell-Adapter aus der Arduino-IDE. 
@@ -61,7 +65,7 @@ Nach korrekter Verbindung (Pin's prüfen!) und Einstellung der Spannung von **3.
 
 Sieht man an den LEDs des Adapters einzelnes Aufblitzen, kann der Upload-Taster losgelassen werden; der Upload sollte nun erfolgen. Falls nicht, sind noch einmal alle Verbindungen etc. zu prüfen.
 
-*Die Beschriftung ist 1:1, d.h., RX wird mit RX am Adapter und TX mit TX am Adapter verbunden. Die Belegung ist für übliche FTDI-Adapter - falls eine andere Reihenfolge der Pins vorliegt, einfach mit Jumper-Kabeln richtig verbinden.*
+*Die Beschriftung am Programmieranschluss ist 1:1, d.h., RX wird mit RX am Adapter und TX mit TX am Adapter verbunden. Die Belegung ist die der üblichen FTDI232-Adapter - falls eine andere Reihenfolge der Pins vorliegt, einfach mit Jumper-Kabeln richtig verbinden.*
 
 Nach dem Upload lässt sich über die Serielle Schnittstelle das Verhalten nachvollziehen, der Sensor sollte bei vorhandenem Freifunk-Netz direkt im Freifunk-IoT-Backend auftauchen.
 
