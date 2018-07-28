@@ -66,7 +66,8 @@ Sieht man an den LEDs des Adapters einzelnes Aufblitzen, kann der Upload-Taster 
 Nach dem Upload lässt sich über die Serielle Schnittstelle das Verhalten nachvollziehen, der Sensor sollte bei vorhandenem Freifunk-Netz direkt im Freifunk-IoT-Backend auftauchen.
 
 ### Changelog
-Rev 1:
+Rev 1:  
 Initial Layout
-Rev 2: 
+
+Rev 2:  
 Added missing pull-up resistors, added missing GPIO15-GND connection.
