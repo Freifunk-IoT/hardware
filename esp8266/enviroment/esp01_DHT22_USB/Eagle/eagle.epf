@@ -353,17 +353,9 @@ UsedLibrary="/Users/moritzspeidel/Documents/EAGLE/libraries/RHT03_DHT-22_AM2302.
 UsedLibrary="/Users/moritzspeidel/Documents/EAGLE/libraries/esp8266modules.lbr"
 
 [Win_1]
-Type="Text Editor"
-Number=1
-File="/Users/moritzspeidel/Documents/EAGLE/projects/ESP_workshop_board/V1.sch.rpt"
-CursorPos="0 0"
-Font="Artifakt Element Book,11,-1,5,50,0,0,0,0,0"
-
-[Win_2]
 Type="Control Panel"
 Number=0
 
 [Desktop]
 Screen="1680 1050"
 Window="Win_1"
-Window="Win_2"

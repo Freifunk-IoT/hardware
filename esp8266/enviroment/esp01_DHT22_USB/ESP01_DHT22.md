@@ -27,8 +27,13 @@ Diese Platine ist gedacht für Lötanfänger und Workshops. Deshalb sind alle Ba
 | LD117AV33 | 1 |
 | Buchsenleiste 2,54 mm | 1 |
 | LED 5mm | 1 |
+
 Genaue Teilebezeichungen, Preise und Links folgen.
+
 
 ### Changelog
 Rev1:
 Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
+
+Rev2:
+Fixed Programmer-Pinout to fit FTDI-Breakout
