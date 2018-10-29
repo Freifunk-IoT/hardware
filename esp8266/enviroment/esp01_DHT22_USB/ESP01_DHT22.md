@@ -17,7 +17,7 @@ Diese Platine ist gedacht für Lötanfänger und Workshops. Deshalb sind alle Ba
 | Platine | 1|
 | ESP-01 | 1|
 | DHT22 | 1 |
-| Widerstand 10k | 2 |
+| Widerstand 10k | 1 |
 | Widerstand 2k2 | 1 |
 | Widerstand 330 | 1 |
 | Taster | 1 |
@@ -26,6 +26,7 @@ Diese Platine ist gedacht für Lötanfänger und Workshops. Deshalb sind alle Ba
 | Kondensator 10 uF | 1 |
 | LD117AV33 | 1 |
 | Buchsenleiste 2,54 mm | 1 |
+| Jumper | 1 |
 | LED 5mm | 1 |
 
 Genaue Teilebezeichungen, Preise und Links folgen.
