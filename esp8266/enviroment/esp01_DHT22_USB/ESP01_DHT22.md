@@ -13,6 +13,7 @@ Diese Platine ist gedacht für Lötanfänger und Workshops. Deshalb sind alle Ba
 
 ### Bauteile
 | Bezeichnung | Anzahl |
+|-------------|--------|
 | Platine | 1|
 | ESP-01 | 1|
 | DHT22 | 1 |
@@ -31,27 +32,3 @@ Genaue Teilebezeichungen, Preise und Links folgen.
 ### Changelog
 Rev1:
 Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
-
-### Changelog
-Rev1:
-Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
-
-### Changelog
-Rev1:
-Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
-
-### Changelog
-Rev1:
-Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
-
-### Changelog
-Rev1:
-Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
-
-### Changelog
-Rev1:
-Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
-
-### Changelog
-Rev1:
-Initial Layout
