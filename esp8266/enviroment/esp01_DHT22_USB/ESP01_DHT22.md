@@ -24,7 +24,7 @@ Diese Platine ist gedacht für Lötanfänger und Workshops. Deshalb sind alle Ba
 | USB-B Buchse  THT | 1 |
 | Kondensator 100nF | 1 |
 | Kondensator 10 uF | 1 |
-| LD117AV33 | 1 |
+| LF33ABV | 1 |
 | Buchsenleiste 2,54 mm | 1 |
 | Jumper | 1 |
 | LED 5mm | 1 |
@@ -34,7 +34,10 @@ Genaue Teilebezeichungen, Preise und Links folgen.
 
 ### Changelog
 Rev1:
-Initial LayoutGenaue Teilebezeichungen, Preise und Links folgen.
+Initial Layout
 
 Rev2:
 Fixed Programmer-Pinout to fit FTDI-Breakout
+
+Rev3:
+Changed voltage-regulator to fit pseudo-standart pinout
